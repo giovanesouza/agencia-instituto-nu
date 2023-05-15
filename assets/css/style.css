@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+}
+
+header {
+    background-color: #f4511e;
+}
+
+/* Menu */
+
+nav {
+    background-color: #043279;
+    color: #f4f4f4;
+    font-size: 12px;
+    letter-spacing: 4px;
+    height: 50px;
+    padding-right: 40px;
+}
+
+nav li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+section,
+footer {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 63px;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #f4511e;
+    color: #fff;
+}
+
+td {
+    color: #303030;
+    padding: 5px;
+}
+
+/* Formata as linhas pares */
+tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+/* Formata as linhas ímpares */
+tbody tr:nth-child(odd) {
+    background-color: #bdbdbd;
+}
+
+#pacotes .figuras, #pacotes .videos {
+    text-align: center;
+}
+
+#pacotes .figuras figure {
+    display: inline-block;
+}
+
+
